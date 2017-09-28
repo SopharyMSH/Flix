@@ -36,3 +36,9 @@ Things you may want to cover:
 
   - rails g model Movie title:string rating:string total_gross:decimal
   - rake db:migrate
+  
+5. Generate a new migration file that adds two fields to the movies database table
+
+6. Update the existing movies in the database to have values for the new fields
+
+7. Change the movie listing page to display the new movie fields
