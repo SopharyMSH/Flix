@@ -64,4 +64,14 @@ Things you may want to cover:
 13. Define an edit action in the MoviesController that finds the movie we want to update and displays an HTML form.
 
 14. Create an edit.html.erb view template that generates the HTML form pre-populated with the movie's details.
+
+15. Add a route to handle requests for /movies/new to show a form.
+
+16. Generate an "Add New Movie" link on the index page.
+
+17. Define a new action in the MoviesController that renders a form template.
+
+18. Create a new.html.erb template that generates an HTML form with blank fields
+
+19. Define a create action in the MoviesController that inserts the movie into the database when the form is submitted
   
