@@ -54,5 +54,5 @@ Things you may want to cover:
 9. Write a Custom View Helper && Custom format date in environment.rb
   - Date::DATE_FORMATS[:release_date] = "%B %e, %Y" (enviroment.rb)
   - <%= movie.released_on.to_s(:release_date) %> (index.html.erb)
-  
+10. Routes show page; add action and template
   
