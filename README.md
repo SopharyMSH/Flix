@@ -28,6 +28,11 @@ Things you may want to cover:
 
 2. Generate a MoviesController and define an index action that prepares an array of movie titles
 
+  - rails g controller movies
+
 3. Create a view template (index.html.erb) that dynamically generates an HTML list of movie titles
 
+4. Create model Moive
 
+  - rails g model Movie title:string rating:string total_gross:decimal
+  - rake db:migrate
