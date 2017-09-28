@@ -54,5 +54,14 @@ Things you may want to cover:
 9. Write a Custom View Helper && Custom format date in environment.rb
   - Date::DATE_FORMATS[:release_date] = "%B %e, %Y" (enviroment.rb)
   - <%= movie.released_on.to_s(:release_date) %> (index.html.erb)
+
 10. Routes show page; add action and template
+
+11. Add a route to handle requests for /movies/1/edit, for example.
+
+12. Generate an "Edit" link on the show page.
+
+13. Define an edit action in the MoviesController that finds the movie we want to update and displays an HTML form.
+
+14. Create an edit.html.erb view template that generates the HTML form pre-populated with the movie's details.
   
