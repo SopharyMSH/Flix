@@ -74,4 +74,8 @@ Things you may want to cover:
 18. Create a new.html.erb template that generates an HTML form with blank fields
 
 19. Define a create action in the MoviesController that inserts the movie into the database when the form is submitted
+
+20. Generate a "Delete" link on the show page
+
+21. Define a destroy action in the MoviesController that deletes the movie from the database
   
