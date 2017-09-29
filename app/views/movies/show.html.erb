@@ -39,4 +39,6 @@
 
   <h3>Image</h3>
   <%= image_for(@movie) %>
+  <%= link_to pluralize(@movie.reviews.size, "review"), 
+            movie_reviews_path(@movie) %>
 </article>
