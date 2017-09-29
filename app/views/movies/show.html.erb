@@ -41,6 +41,10 @@
   <%= image_for(@movie) %>
   <%= link_to pluralize(@movie.reviews.size, "review"), 
             movie_reviews_path(@movie) %>
+  <h3>Average Review</h3>
+  <p>
+    <%= format_average_stars(@movie) %>
+  </p>
 </article>
 <footer>
 <%= link_to "Write Review", new_movie_review_path(@movie), 
