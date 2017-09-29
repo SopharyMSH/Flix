@@ -90,3 +90,6 @@ Things you may want to cover:
     - rake db:rollback
     - edit migration file and migrate again
 34. Update file form and update movie param in MoviesController
+
+35. create review
+  - rails g resource Review name:string stars:integer comment:text movie:references --no-test-framework
