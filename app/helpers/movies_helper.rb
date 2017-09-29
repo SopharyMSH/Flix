@@ -6,5 +6,11 @@ module MoviesHelper
       number_to_currency(movie.total_gross)
     end
   end
-  Date::DATE_FORMATS[:release_date] = "%B %e, %Y"
+  def image_for(movie)
+    if movie.image_file_name.blank?
+      image_tag('default.jpg')
+    else
+      image_tag(movie.image_file_name)
+    end
+  end
 end
