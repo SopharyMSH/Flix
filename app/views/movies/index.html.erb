@@ -2,7 +2,7 @@
 <%= link_to("Add New Movie", new_movie_path) %>
 <% @movies.each do |movie| %>
   <article>
-    <header>
+    <header class='movie-image'>
       <%= image_for(movie) %>
       <h2><%= link_to movie.title, movie %></h2>
       <h3><%= movie.cast %></h3>
