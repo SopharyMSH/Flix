@@ -78,4 +78,15 @@ Things you may want to cover:
 20. Generate a "Delete" link on the show page
 
 21. Define a destroy action in the MoviesController that deletes the movie from the database
-  
+
+30. Generate a new migration file that adds more fields to the movies database table.
+
+31. Change the movie index and show templates to display the new movie fields.
+
+32. Change the form to include form elements for the new fields.
+
+33. Update the existing movies in the database to have values for the new fields.
+    - rollback
+    - rake db:rollback
+    - edit migration file and migrate again
+34. Update file form and update movie param in MoviesController
